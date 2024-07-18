@@ -1,7 +1,7 @@
 import setuptools
 
 setuptools.setup(
-    name="longitude",
+    name="latitude",
     version="0.0.1",
     author="Mostafa Mabrok",
     author_email="mostafa.m.mabrok@gmail.com",
