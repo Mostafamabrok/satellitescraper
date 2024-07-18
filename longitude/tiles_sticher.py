@@ -1,12 +1,3 @@
-
-# ======================================================
-# This program stitches tiles fetched by jimutmap.
-# Note this doesnot uses multi-processing 
-# OPEN SOURCED UNDER GPL-V3.0.
-# Author : Jimut Bahan Pal | jimutbahanpal@yahoo.com
-# Project Website: https://github.com/Jimut123/jimutmap
-# ======================================================
-
 import cv2
 import ssl
 import os

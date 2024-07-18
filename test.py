@@ -1,14 +1,3 @@
-
-# ======================================================
-# This tests the working of jimutmap package.
-# Note this doesnot uses multi-processing 
-# OPEN SOURCED UNDER GPL-V3.0.
-# Author : Jimut Bahan Pal | jimutbahanpal@yahoo.com
-# Project Website: https://github.com/Jimut123/jimutmap
-# ======================================================
-
-# Using map tiles for Kolkata, Baranagar my hometown: 22.645899,88.373889,19
-
 import os
 import glob
 import shutil

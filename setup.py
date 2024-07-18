@@ -1,14 +1,3 @@
-# ========================================================
-# This program fetches tiles from satellites.pro for free.
-# OPEN SOURCED UNDER GPL-V3.0.
-# Author : Jimut Bahan Pal | jimutbahanpal@yahoo.com
-# Project Website: https://github.com/Jimut123/jimutmap
-# pylint: disable = global-statement
-# cSpell: words imghdr, tqdm, asinh, jimut, bahan
-# ========================================================
-
-# https://packaging.python.org/en/latest/tutorials/packaging-projects/
-
 import setuptools
 
 with open("README.md", "r") as fh:
