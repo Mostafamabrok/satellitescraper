@@ -1,7 +1,7 @@
 import os
 import glob
 import shutil
-from jimutmap import api, sanity_check, stitch_whole_tile
+from longitude import api, sanity_check, stitch_whole_tile
 
 
 download_obj = api(min_lat_deg = 25.1532,

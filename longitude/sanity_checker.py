@@ -10,7 +10,7 @@ import numpy as np
 import datetime as dt
 from tqdm import tqdm
 import multiprocessing
-from jimutmap import api
+from longitude import api
 from typing import Tuple
 from selenium import webdriver
 import chromedriver_autoinstaller
@@ -210,7 +210,7 @@ def sanity_check(min_lat_deg, max_lat_deg, min_lon_deg, max_lon_deg, zoom, verbo
 con = sqlite3.connect('temp_sanity.sqlite')
 cur = con.cursor()
 
-# create the object of class jimutmap's api
+# create the object of class longitude's api
 sanity_obj = api(min_lat_deg = 10,
                     max_lat_deg = 10.01,
                     min_lon_deg = 10,
