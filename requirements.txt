@@ -1,0 +1,10 @@
+opencv-python
+certifi
+chardet
+chromedriver-autoinstaller
+idna
+numpy 
+requests
+selenium
+tqdm
+urllib3
