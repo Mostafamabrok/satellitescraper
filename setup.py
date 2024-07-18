@@ -1,7 +1,7 @@
 import setuptools
 
 setuptools.setup(
-    name="latitude",
+    name="satellitescraper",
     version="0.1.0",
     author="Mostafa Mabrok",
     author_email="mostafa.m.mabrok@gmail.com",
