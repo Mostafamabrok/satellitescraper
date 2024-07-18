@@ -1,10 +1,10 @@
 import os
 import glob
 import shutil
-from longitude import api, sanity_check, stitch_whole_tile
+from longitude import map_api, sanity_check, stitch_whole_tile
 
 
-download_obj = api(min_lat_deg = 25.1532,
+download_obj = map_api(min_lat_deg = 25.1532,
                       max_lat_deg = 25.2224,
                       min_lon_deg = 51.2938,
                       max_lon_deg = 51.3502,
@@ -21,7 +21,7 @@ download_obj = api(min_lat_deg = 25.1532,
 download_obj.download(getMasks = True)
 
 # create the object of class jimutmap's api
-sanity_obj = api(min_lat_deg = 25.1532,
+sanity_obj = map_api(min_lat_deg = 25.1532,
                       max_lat_deg = 25.2224,
                       min_lon_deg = 51.2938,
                       max_lon_deg = 51.3502,

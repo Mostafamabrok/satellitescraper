@@ -42,7 +42,7 @@ UNLOCK_VAR = 0
 LOCKING_LIMIT = 50 # MAX NO OF THREADS
 
 
-class api:
+class map_api:
     """
     Pull tiles from Apple Maps
     """

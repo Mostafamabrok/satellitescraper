@@ -11,7 +11,7 @@ import numpy as np
 import datetime as dt
 from tqdm import tqdm
 import multiprocessing
-from longitude import api
+from longitude import map_api
 from typing import Tuple
 from selenium import webdriver
 import chromedriver_autoinstaller

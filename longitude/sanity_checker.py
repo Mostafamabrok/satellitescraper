@@ -10,7 +10,7 @@ import numpy as np
 import datetime as dt
 from tqdm import tqdm
 import multiprocessing
-from longitude import api
+from longitude import map_api
 from typing import Tuple
 from selenium import webdriver
 import chromedriver_autoinstaller
@@ -211,7 +211,7 @@ con = sqlite3.connect('temp_sanity.sqlite')
 cur = con.cursor()
 
 # create the object of class longitude's api
-sanity_obj = api(min_lat_deg = 10,
+sanity_obj = map_api(min_lat_deg = 10,
                     max_lat_deg = 10.01,
                     min_lon_deg = 10,
                     max_lon_deg = 10.01,
