@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup(
     name="latitude",
-    version="0.0.1",
+    version="0.1.0",
     author="Mostafa Mabrok",
     author_email="mostafa.m.mabrok@gmail.com",
     description="Python Package for Scraping Sattelite Image Data",
