@@ -1,0 +1,15 @@
+# numbers are for selenium drivers, we should ignore them
+[0-9]*
+*.png
+myOutputFolder_zoom19
+*.sqlite
+.ipynb_checkpoints
+jimutmap/__pycache__
+__pycache__ 
+notebooks
+build  
+dist
+myOutputFolder
+.zenodo.json 
+jimutmap.egg-info  
+ 
