@@ -2,6 +2,7 @@ opencv-python
 certifi
 chardet
 chromedriver-autoinstaller
+webdriver_manager
 idna
 numpy 
 requests

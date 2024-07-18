@@ -1,7 +1,7 @@
 import os
 import glob
 import shutil
-from longitude import map_api, sanity_check, stitch_whole_tile
+from latitude import map_api, sanity_check, stitch_whole_tile
 
 
 download_obj = map_api(min_lat_deg = 25.1532,
