@@ -1,7 +1,7 @@
 __name__ = "satellitescraper"
-__version__ = "0.1.1"
+__version__ = "0.1.2"
 __author__ = "Mostafa Mabrok| mostafa.m.mabrok@gmail.com"
-__release_date__ = '18-July-2024'
+__release_date__ = '19-July-2024'
 from .satellitescraper import map_api
 from .file_size import get_folder_size
 from .sanity_checker import sanity_check
