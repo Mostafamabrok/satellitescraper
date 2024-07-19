@@ -20,7 +20,7 @@ download_obj = map_api(min_lat_deg = 25.1,
 # getMasks = False if you just need the tiles 
 download_obj.download(getMasks = False)
 
-# create the object of class jimutmap's api
+# create the object of class satellitescraper api
 sanity_obj = map_api(min_lat_deg = 25.1,
                       max_lat_deg = 25.2,
                       min_lon_deg = 51.2,
@@ -47,7 +47,7 @@ sqlite_temp_files = glob.glob('*.sqlite*')
 
 # update_stitcher_db("myOutputFolder")
 # get_bbox_lat_lon()
-stitch_whole_tile(save_name="Kolkata", folder_name="myOutputFolder")
+stitch_whole_tile(save_name="QATAR", folder_name="myOutputFolder")
 
 
 print("Temporary sqlite files to be deleted = {} ? ".format(sqlite_temp_files))

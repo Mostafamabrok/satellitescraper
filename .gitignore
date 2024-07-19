@@ -9,5 +9,4 @@ build
 dist
 myOutputFolder*
 .zenodo.json 
-jimutmap.egg-info  
  
