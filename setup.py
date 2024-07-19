@@ -12,7 +12,7 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/Mostafamabrok/longitude",
     install_requires=['certifi','chardet','chromedriver-autoinstaller','idna',
-                      'numpy','requests','selenium','tqdm','urllib', 
+                      'numpy','requests','selenium','tqdm','urllib3', 
                       'opencv-python'],
     packages=setuptools.find_packages(),
     classifiers=[
