@@ -87,7 +87,7 @@ def shall_stop():
     print("Total number of satellite images needed to be downloaded = ", total_number_of_road0s)
 
     if total_number_of_sat0s == 0 and total_number_of_road0s == 0:
-        return 0
+        return 1
     return 0
 
 
