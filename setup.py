@@ -4,7 +4,7 @@ import ast
 
 setuptools.setup(
     name="satellitescraper",
-    version="0.1.3",
+    version="0.1.4",
     author="Mostafa Mabrok",
     author_email="mostafa.m.mabrok@gmail.com",
     description="Python Package for Scraping Sattelite Image Data",
@@ -13,7 +13,7 @@ setuptools.setup(
     url="https://github.com/Mostafamabrok/longitude",
     install_requires=['certifi','chardet','chromedriver-autoinstaller','idna',
                       'numpy','requests','selenium','tqdm','urllib3', 
-                      'opencv-python'],
+                      'opencv-python', 'webdriver_manager'],
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
