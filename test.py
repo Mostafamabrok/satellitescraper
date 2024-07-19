@@ -4,10 +4,10 @@ import shutil
 from satellitescraper import map_api, sanity_check, stitch_whole_tile
 
 
-download_obj = map_api(min_lat_deg = 25.1532,
-                      max_lat_deg = 25.2224,
-                      min_lon_deg = 51.2938,
-                      max_lon_deg = 51.3502,
+download_obj = map_api(min_lat_deg = 25.1,
+                      max_lat_deg = 25.2,
+                      min_lon_deg = 51.2,
+                      max_lon_deg = 51.3,
                       zoom = 19,
                       verbose = False,
                       threads_ = 50, 
@@ -21,19 +21,19 @@ download_obj = map_api(min_lat_deg = 25.1532,
 download_obj.download(getMasks = True)
 
 # create the object of class jimutmap's api
-sanity_obj = map_api(min_lat_deg = 25.1532,
-                      max_lat_deg = 25.2224,
-                      min_lon_deg = 51.2938,
-                      max_lon_deg = 51.3502,
+sanity_obj = map_api(min_lat_deg = 25.1,
+                      max_lat_deg = 25.2,
+                      min_lon_deg = 51.2,
+                      max_lon_deg = 51.3,
                       zoom = 19,
                       verbose = False,
                       threads_ = 50, 
                       container_dir = "myOutputFolder")
 
-sanity_check(min_lat_deg = 25.1532,
-                max_lat_deg = 25.2224,
-                min_lon_deg = 51.2938,
-                max_lon_deg = 51.3502,
+sanity_check(min_lat_deg = 25.1,
+                max_lat_deg = 25.2,
+                min_lon_deg = 51.2,
+                max_lon_deg = 51.3,
                 zoom = 19,
                 verbose = False,
                 threads_ = 50, 
