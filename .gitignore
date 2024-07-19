@@ -1,6 +1,6 @@
 [0-9]*
 *.png
-*.sqlite
+*.sqlite*
 .ipynb_checkpoints
 jimutmap/__pycache__
 __pycache__ 
