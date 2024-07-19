@@ -1,5 +1,5 @@
 __name__ = "satellitescraper"
-__version__ = "0.1.2"
+__version__ = "0.1.3"
 __author__ = "Mostafa Mabrok| mostafa.m.mabrok@gmail.com"
 __release_date__ = '19-July-2024'
 from .satellitescraper import map_api

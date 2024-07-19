@@ -4,7 +4,7 @@ import ast
 
 setuptools.setup(
     name="satellitescraper",
-    version="0.1.2",
+    version="0.1.3",
     author="Mostafa Mabrok",
     author_email="mostafa.m.mabrok@gmail.com",
     description="Python Package for Scraping Sattelite Image Data",
