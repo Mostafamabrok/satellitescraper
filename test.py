@@ -7,13 +7,14 @@ min_lat_deg = 25.1
 max_lat_deg = 25.12
 min_lon_deg = 51.2
 max_lon_deg = 51.22
+zoom = 19
 
 
 download_obj = map_api(min_lat_deg = min_lat_deg,
                       max_lat_deg = max_lat_deg,
                       min_lon_deg = min_lon_deg,
                       max_lon_deg = max_lon_deg,
-                      zoom = 19,
+                      zoom = zoom,
                       verbose = False,
                       threads_ = 50, 
                       container_dir = "myOutputFolder")
@@ -30,7 +31,7 @@ sanity_obj = map_api(min_lat_deg = min_lat_deg,
                       max_lat_deg = max_lat_deg,
                       min_lon_deg = min_lon_deg,
                       max_lon_deg = max_lon_deg,
-                      zoom = 19,
+                      zoom = zoom,
                       verbose = False,
                       threads_ = 50, 
                       container_dir = "myOutputFolder")
@@ -39,7 +40,7 @@ sanity_check(min_lat_deg = min_lat_deg,
                 max_lat_deg = max_lat_deg,
                 min_lon_deg = min_lon_deg,
                 max_lon_deg = max_lon_deg,
-                zoom = 19,
+                zoom = zoom,
                 verbose = False,
                 threads_ = 50, 
                 container_dir = "myOutputFolder")
