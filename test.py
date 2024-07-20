@@ -23,7 +23,7 @@ download_obj = map_api(min_lat_deg = min_lat_deg,
 # a.ac_key = ACCESS_KEY_STRING
 # here
 
-# getMasks = False if you just need the tiles 
+# If you just need the image tiles without the road place info, set this to false.
 download_obj.download(getMasks = False)
 
 # create the object of class satellitescraper api
