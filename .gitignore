@@ -2,8 +2,8 @@
 *.png
 *.sqlite*
 .ipynb_checkpoints
-jimutmap/__pycache__
-__pycache__ 
+__pycache__
+*venv* 
 notebooks
 build  
 dist
