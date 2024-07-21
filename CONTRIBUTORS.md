@@ -1,1 +1,2 @@
-# Here are the list of awesome contributors
+# Here are the list of contributors:
+

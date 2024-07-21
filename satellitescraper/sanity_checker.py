@@ -134,7 +134,6 @@ def get_road_img_id():
 def sanity_check(min_lat_deg, max_lat_deg, min_lon_deg, max_lon_deg, zoom, verbose, threads_, container_dir = "myOutputFolder"):
     # This function contains the main loop for checking the sanity of download
     # till all the files are downloaded
-
     # Create table sanity with the coordinates, and the corresponding
     # satellite tile and the road tile, id as the primary key xTile_yTile
 
