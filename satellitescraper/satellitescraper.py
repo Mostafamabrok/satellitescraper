@@ -17,12 +17,6 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 
-from satellitescraper import *
-
-
-
-
-
 
 # Ignore SSL certificate errors
 ctx = ssl.create_default_context()
