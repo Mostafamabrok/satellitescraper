@@ -18,6 +18,8 @@ Michigan Forest:
   - Takes a free API key from sattelites.pro
   - Uses API key to download an array of high-res tiles from apple maps.
   - Stiches the array togehter to produce one high resolution image.
+  - ![image](https://github.com/user-attachments/assets/0a8395b7-cb58-4849-9af2-4a84380f7869)
+
 
 ## Install:
   - ```pip install satellitescraper``` (Will require you to have chrome or a chromium based browser installed.)
