@@ -6,7 +6,7 @@ with open("README.md", "r") as f:
 
 setuptools.setup(
     name="satellitescraper",
-    version="0.1.4",
+    version="0.1.5",
     author="Mostafa Mabrok",
     author_email="mostafa.m.mabrok@gmail.com",
     description="Python Package for Scraping Sattelite Image Data",
