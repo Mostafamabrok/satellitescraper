@@ -1,6 +1,9 @@
 # Satellite Scraper
 Easy to use python package for scraping high-resolution satellite images from apple maps.🌎
 
+![image](https://github.com/user-attachments/assets/2ac570c5-24fb-47d3-a346-680f28a84434)
+
+
 ## Features
   - Provides super high resolution satellite images of a specified area!
   - No need for any api key.
