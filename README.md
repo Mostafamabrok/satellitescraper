@@ -1,8 +1,14 @@
 # Satellite Scraper
 Easy to use python package for scraping high-resolution satellite images from apple maps.🌎
 
+## Examples:
+Qatar Desert
+
 ![image](https://github.com/user-attachments/assets/1a170708-7e1b-4d9b-9e32-ca933f5368e3)
 
+Michigan Forest:
+
+![image](https://github.com/user-attachments/assets/babadade-fe91-4a98-a63d-ed24cdc6bca7)
 
 ## Features
   - Provides super high resolution satellite images of a specified area!
