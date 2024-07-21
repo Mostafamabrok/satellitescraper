@@ -37,10 +37,10 @@ Michigan Forest:
   map_fetch(min_lat_deg ,max_lat_deg, min_lon_deg, max_lon_deg, zoom, verbose = False, threads_= 8, container_dir = "myOutputFolder")
   ```
   To get the coordinate variables:
-    - Take two points on earth you would like to make into a rectangle
-    - Record the latitude and longitude of both of those points
-    - Put the smallest longitude and latitude in respective variabeles
-    - Put the largest longitude and latitude in respective variables
-    - Choose zoom (affects resolution of tiles).
+  - Take two points on earth you would like to make into a rectangle
+  - Record the latitude and longitude of both of those points
+  - Put the smallest longitude and latitude in respective variabeles
+  - Put the largest longitude and latitude in respective variables
+  - Choose zoom (affects resolution of tiles).
 
   For more detailed usage guide, checkout the documentation.
