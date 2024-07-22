@@ -1,5 +1,6 @@
 # Satellite Scraper
 Easy to use python package for scraping high-resolution satellite images from apple maps.🌎
+Credit to @Jimutmap123 for the original code.
 
 ## Examples:
 Qatar Desert
