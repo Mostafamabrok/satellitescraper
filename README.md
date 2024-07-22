@@ -24,7 +24,17 @@ Michigan Forest:
 
 
 ## Install:
-  - ```pip install satellitescraper``` (Will require you to have chrome or a chromium based browser installed.)
+
+### Prerequisites
+- Python 3.7+
+- Pip
+- Chromium based browser on $PATH
+
+### Instalation Using Pip
+
+```
+pip install satellitescraper
+```
 
 ## Usage:
 
