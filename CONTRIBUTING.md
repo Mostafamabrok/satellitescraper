@@ -1,5 +1,5 @@
 
-Please feel free to raise issues and fix any existing ones. Further details can be found in our [code of conduct](https://github.com/Mostafamabrok/longitud).
+Please feel free to raise issues and fix any existing ones. Further details can be found in our [code of conduct](https://github.com/Mostafamabrok/satellitescraper).
 
 ### While making a PR, please make sure you:
 - [ ] Always start your PR description with "Fixes #issue_number", if you're fixing an issue.
@@ -9,8 +9,6 @@ Please feel free to raise issues and fix any existing ones. Further details can 
 - [ ] Please provide snapshots if deemed necessary.
 - [ ] Update readme if required.
 
-### TODO
+### Issues
 
-There are various developments that needs to be done in this project. Please 
-[check TODO](https://github.com/Mostafamabrok/longitude) if you are willing to contribute in 
-this repository.
+There are various issues that adress problems and features to be worked on, if you want to contribute, simply go to the issues tab in this repository, and open a pull request on whatever issue you want to adress. This will then be reviewed and merged if satisfactory.
