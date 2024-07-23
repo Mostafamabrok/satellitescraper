@@ -4,9 +4,10 @@ Easy to use python package for scraping high-resolution satellite images from ap
 Credit to @Jimutmap123 for the original code.
 
 ## Examples:
-Qatar Desert
+Kobe Dock
 
-![image](https://github.com/user-attachments/assets/1a170708-7e1b-4d9b-9e32-ca933f5368e3)
+![image](https://github.com/user-attachments/assets/64d393be-eeca-42c2-8971-b4920cf3743a)
+
 
 Michigan Forest:
 
