@@ -30,6 +30,7 @@ Michigan Forest:
 - Python 3.7+
 - Pip
 - Chromium based browser on $PATH
+- Works MUCH more reliably on Linux (only ubuntu tested so far.)
 
 ### Instalation Using Pip
 
