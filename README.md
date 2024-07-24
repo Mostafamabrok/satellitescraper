@@ -59,5 +59,5 @@ pip install satellitescraper
   - Put the largest longitude and latitude in respective variables
   - Choose zoom (affects resolution of tiles).
 
-For more detailed information, visit the [documentation](docs/).
+For more detailed information, visit the [documentation](https://github.com/Mostafamabrok/satellitescraper/tree/main/docs).
 
