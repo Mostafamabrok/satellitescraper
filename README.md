@@ -15,6 +15,7 @@ Michigan Forest:
 
 ## Features
   - Provides super high resolution satellite images of a specified area!
+  - Allows you to select a city and download images of that city with just the name (TBA)
   - No need for any api key.
 
 ## How it Works:
