@@ -8,11 +8,6 @@ Kobe Dock
 
 ![image](https://github.com/user-attachments/assets/64d393be-eeca-42c2-8971-b4920cf3743a)
 
-
-Michigan Forest:
-
-![image](https://github.com/user-attachments/assets/babadade-fe91-4a98-a63d-ed24cdc6bca7)
-
 ## Features
   - Provides super high resolution satellite images of a specified area!
   - Allows you to select a city and download images of that city with just the name (TBA)
