@@ -86,7 +86,7 @@ def shall_stop():
     get_road_0s = cur.execute(''' SELECT * FROM sanity WHERE road_tile = 0 ''')
     get_road_0s_val = cur.fetchall() #converts the cursor object to number
     total_number_of_road0s = len(get_road_0s_val)
-    print("Total number of satellite images needed to be downloaded = ", total_number_of_road0s)
+    print("Total number of road images needed to be downloaded = ", total_number_of_road0s)
 
     if total_number_of_sat0s == 0 and total_number_of_road0s == 0:
         return 1
