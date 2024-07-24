@@ -1,5 +1,9 @@
 from pathlib import Path
 
+"""
+Gets file size for usage in terminal printing later.
+"""
+
 
 def get_folder_size(folder):
     return ByteSize(sum(file.stat().st_size for file in Path(folder).rglob('*')))

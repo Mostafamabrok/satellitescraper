@@ -17,6 +17,15 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 
+"""
+satellitescraper.py
+
+This is the core of the program. This file is responsible for downloading the tiles.
+This is not to be called alone however. It all runs through the map_api class, that is called in various
+places throughout the library.
+
+"""
+
 
 # Ignore SSL certificate errors
 ctx = ssl.create_default_context()

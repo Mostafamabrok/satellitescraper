@@ -8,7 +8,7 @@ max_lat_deg = 34.705105
 min_lon_deg = 135.18681
 max_lon_deg = 135.213118
 zoom = 19
-containter_dir = "myOutputFolder"
+container_dir = "myOutputFolder"
 
 
-map_fetch(min_lat_deg ,max_lat_deg, min_lon_deg, max_lon_deg, zoom, verbose = False, threads_= 8, container_dir)
+map_fetch(min_lat_deg ,max_lat_deg, min_lon_deg, max_lon_deg, zoom, verbose = False, threads_= 8, container_dir=container_dir)

@@ -3,6 +3,14 @@ import glob
 import shutil
 from satellitescraper import map_api, sanity_check, stitch_whole_tile
 
+"""
+map_fetch.py
+
+Here we combine all the other other functions to create one, united function
+that makes it easier for the user to download tiles without having to call multiple functions!
+This function is very important, and any other downloading operations should call on this function.
+
+"""
 
 def map_fetch(min_lat_deg ,max_lat_deg, min_lon_deg, max_lon_deg, zoom, verbose = False, threads_= 8, container_dir = "myOutputFolder"):
 

@@ -18,6 +18,11 @@ import chromedriver_autoinstaller
 from multiprocessing.pool import ThreadPool
 from os.path import join, exists, normpath, relpath
 
+"""
+Stitches all downloaded tiles together.
+Creates a temporary file that should be deleted before each run.
+
+"""
 
 def update_stitcher_db(folder_name = "myOutputFolder"):
     # this function stiches the whole folder passed to it

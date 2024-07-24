@@ -18,7 +18,9 @@ from .file_size import get_folder_size
 from multiprocessing.pool import ThreadPool
 from os.path import join, exists, normpath, relpath
 
-
+"""
+This file is responsible for making sure downloads are clean and for making sure that no bad tiles enter.
+"""
 
 def generate_summary():
     # Create an approximate analysis of the space required
